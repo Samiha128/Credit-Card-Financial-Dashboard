@@ -1,5 +1,6 @@
-Table of Contents
-1. Overview of the Project
-2. Architecture of the Project
-3. Value Added by This Project
-4. Contact Information
+# Table of Contents
+
+- [Overview of the Project](#overview-of-the-project)
+- [Architecture of the Project](#architecture-of-the-project)
+- [Value Added by This Project](#value-added-by-this-project)
+- [Contact](#contact)
