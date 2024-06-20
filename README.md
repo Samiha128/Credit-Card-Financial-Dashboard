@@ -38,6 +38,12 @@ The architecture of this project involves several key steps to analyze and visua
        
 ## Workflow of the Project 
 
+![workflow of the project (dashboard)](https://github.com/Samiha128/Credit-Card-Financial-Dashboard/assets/120471620/9f5559c8-c066-4c59-b8f0-e7f148ad2b88)
+
+## ETL Pipeline
+
+
+
 
 
 
