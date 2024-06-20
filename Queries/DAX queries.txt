@@ -1,0 +1,50 @@
+##column##
+##cust_detail #######
+AgeGROUP =
+SWITCH(
+    TRUE(),
+    'public cust_detail'[customer_age] < 30, "20-30",
+    'public cust_detail'[customer_age] >= 30 && 'public cust_detail'[customer_age] < 40, "30-40",
+    'public cust_detail'[customer_age] >= 40 && 'public cust_detail'[customer_age] < 50, "40-50",
+    'public cust_detail'[customer_age] >= 50 && 'public cust_detail'[customer_age] < 60, "50-60",
+    'public cust_detail'[customer_age] >= 60, "60+",
+    "unknown"
+)
+IncomeGroup =
+SWITCH(
+    TRUE(),
+    'public cust_detail'[income] < 35000, "Low",
+    AND('public cust_detail'[income] >= 35000, 'public cust_detail'[income] < 70000), "Med",
+    'public cust_detail'[income] >= 70000, "High",
+    "unknown"
+)
+####cc_detail####
+
+Revenue = 
+    'public cc_detail'[annual_fees] +
+    'public cc_detail'[total_trans_amt] +
+    'public cc_detail'[interest_earned]
+
+week_num2 = WEEKNUM('public cc_detail'[week_start_date])
+##mesure##
+Current_week_Revenue =
+CALCULATE(
+    SUM('public cc_detail'[Revenue]),
+    FILTER(
+        ALL('public cc_detail'),
+        'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])
+    )
+)
+previous_week_Revenue = 
+CALCULATE(
+    SUM('public cc_detail'[Revenue]),
+    FILTER(
+        ALL('public cc_detail'),
+        'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])-1)
+    )
+
+
+ratio_revenue = DIVIDE(([current_week_revenue] - [Previous_week_Revenue]), [Previous_week_Revenue])
+
+
+
