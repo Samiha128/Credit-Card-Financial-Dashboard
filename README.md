@@ -34,7 +34,11 @@ The architecture of this project involves several key steps to analyze and visua
 5. **Creating Dashboards:**
    - Two primary dashboards will be developed:
      - **Customer Dashboard:**
-     - **Credit Card Dashboard:** 
+     - **Credit Card Dashboard:**
+       
+## Workflow of the Project 
+
+
 
 
 
