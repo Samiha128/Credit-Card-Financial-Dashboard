@@ -1,6 +1,7 @@
 # Table of Contents
 
 - [Overview of the Project](#overview-of-the-project)
+- [repository-structure](#repository-structure)
 - [Architecture of the Project](#architecture-of-the-project)
 - [Value Added by This Project](#value-added-by-this-project)
 - [Contact](#contact)
@@ -35,6 +36,9 @@ The architecture of this project involves several key steps to analyze and visua
    - Two primary dashboards will be developed:
      - **Customer Dashboard:**
      - **Credit Card Dashboard:**
+       
+## repository-structure
+
        
 ## Workflow of the Project 
 
