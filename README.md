@@ -44,7 +44,14 @@ The architecture of this project involves several key steps to analyze and visua
 
 ![ETL Pipeline](https://github.com/Samiha128/Credit-Card-Financial-Dashboard/assets/120471620/d7d3e430-1c75-410e-b18e-d14482ce8b9f)
 
+
 ## Customer Dashboard
+
+![image](https://github.com/Samiha128/Credit-Card-Financial-Dashboard/assets/120471620/fba6418f-c42f-431c-a1a7-e90ac509734f)
+
+## Credit Card Dashboard
+
+![image](https://github.com/Samiha128/Credit-Card-Financial-Dashboard/assets/120471620/74b8f7a5-f8fe-4b37-b561-baa0a290b179)
 
 
 
