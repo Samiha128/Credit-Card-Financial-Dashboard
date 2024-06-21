@@ -21,7 +21,7 @@ Key areas of investigation include:
    ## repository-structure
    
 
-
+```
 │   README.md
 │
 ├── data
@@ -45,7 +45,7 @@ Key areas of investigation include:
     │   customer.pbix
     │   dashboard.pdf
 
-
+```
    ## Architecture of the Project
 
 The architecture of this project involves several key steps to analyze and visualize financial data:
