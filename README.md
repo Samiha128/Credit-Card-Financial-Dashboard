@@ -16,6 +16,36 @@ Key areas of investigation include:
 2. **Impact of Marital Status on Financial Behavior:** Investigating how marital status influences credit consumption patterns and financial decisions. This analysis will explore whether there are notable differences in spending behavior between married, single, and other marital status categories.
 
 3. **Most Utilized Categories of Bank Cards:** Identifying which categories of bank cards (e.g., debit, credit, prepaid) are most frequently used by customers. This analysis will help prioritize service improvements and marketing strategies tailored to customer preferences.....................
+
+   
+   ## repository-structure
+   
+
+
+│   README.md
+│
+├── data
+│   │   cc_add.csv
+│   │   credit_card.csv
+│   │   cust_add.csv
+│   │   customer.csv
+│
+├── images
+│   │   ETL Pipeline.png
+│   │   data modeling.png
+│   │   workflow of the project (dashboard).png
+│
+├── Queries
+│   │   DAX queries.txt
+│   │   SQL Query - Financial Dashboard Data.sql
+│
+├── dashboard
+    │   credit_card.pdf
+    │   customer.pdf
+    │   customer.pbix
+    │   dashboard.pdf
+
+
    ## Architecture of the Project
 
 The architecture of this project involves several key steps to analyze and visualize financial data:
@@ -37,7 +67,7 @@ The architecture of this project involves several key steps to analyze and visua
      - **Customer Dashboard:**
      - **Credit Card Dashboard:**
        
-## repository-structure
+
 
        
 ## Workflow of the Project 
