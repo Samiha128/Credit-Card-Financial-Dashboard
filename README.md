@@ -3,7 +3,6 @@
 - [Overview of the Project](#overview-of-the-project)
 - [repository-structure](#repository-structure)
 - [Architecture of the Project](#architecture-of-the-project)
-- [Value Added by This Project](#value-added-by-this-project)
 - [Contact](#contact)
   ## Overview of the Project
 
@@ -86,6 +85,11 @@ The architecture of this project involves several key steps to analyze and visua
 ## Credit Card Dashboard
 
 ![image](https://github.com/Samiha128/Credit-Card-Financial-Dashboard/assets/120471620/74b8f7a5-f8fe-4b37-b561-baa0a290b179)
+
+
+# Contact
+
+For inquiries, please contact me via email: [elmansourisamiha80@gmail.com](mailto:elmansourisamiha80@gmail.com).
 
 
 
